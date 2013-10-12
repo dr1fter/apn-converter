@@ -1,0 +1,125 @@
+APN-Converter (for Alpine ida-X100)
+	- short reference -
+===================================
+
+0. introduction
+---------------
+
+The APN-converter converts background image files from most common graphic formats
+into the 'APN'-file format used by the Alpine ida-X100 (and maybe other devices, too).
+Also, the tool allows to convert 'APN'-files to the Windows Bitmap format thus for
+example allowing to edit the background images provided by Alpine.
+
+1. limitations
+--------------
+
+The APN-format restricts the resolution of an image to exactly 320x240 pixels with
+a colour depth of 16 Bit per Pixel. Also, the maximum allowed filename length is
+6 characters, only CAPITAL letters or numbers allowed.
+
+2. usage
+--------
+
+The APN-Converter tool provides a command line interface. To open the command line:
+	click the 'Start' button
+	click 'Run...'
+	enter 'cmd'		(without '')
+The appearing blackish window is where you can enter commands to use the tool. To
+use the tool, change to the directory where you copied the 'ApnConverter.exe' file
+using 'cd'
+
+Example: if you installed the tool to c:\tmp, then you need to enter:
+
+	cd c:\tmp
+	
+followed by pressing the [RETURN] key.
+
+
+2.0 prerequisites / installation
+---------------------------------
+The APN-Converter tool requires a MS .Net-Framework installation (2.0 or later).
+To install the APN-Converter to your machine, simply copy the .exe-file provided
+(ApnConverter.exe) to any directory (e.g. C:\tmp).
+
+
+2.1 convert TO APN FROM other graphic format
+--------------------------------------------
+
+Since the APN-Format only allows a resolution of 320x240, make sure the file you
+are going to convert has exactly this resolution. If the file does not have the
+proper resolution, use a graphic manipulation tool of your choice to make it so.
+
+For simplicity, copy the file you are going to convert into the installation
+directory (e.g. c:\tmp).
+
+Assuming you changed to the installation directory, enter the following at the
+command line:
+
+	ApnConverter tpApn SOURCE TARGET TARGET.APN
+
+replacing:
+
+	SOURCE	by the image's filename you wish to convert
+	TARGET	by an arbitrary name of exactly 6 (!) characters or numbers
+	TARGET.APN	by the same name + .APN
+
+Example:
+	
+Assuming the file you copied is named 'mySourceFile.bmp', and the new file shall
+be named BACK00.APN, type into the command line:
+
+	apnconverter toapn mySourceFile.bmp BACK00 BACK00.APN
+	
+
+As a result, a file named 'BACK00.APN' will be created. Copy this file to your 
+USB mass storage device (into the root directory!).
+
+
+2.2 convert FROM APN TO Windows Bitmap
+--------------------------------------
+
+For simplicity, copy the file you are going to convert into the installation
+directory (e.g. c:\tmp).
+
+
+Assuming you changed to the installation directory, enter the following at the
+command line:
+
+	ApnConverter toBmp SOURCE DESTINATION
+	
+replacing:
+
+	SOURCE			by the APN-file's filename
+	DESTINATION		by the output file's name
+
+	
+Example:
+
+Assuming the file you copied is named 'MYAPN0.APN', and the output file shall be
+named 'MyConvertedBitmap.bmp', enter:
+
+	apnconverter tobmp MYAPN0.APN MyConvertedBitmap.bmp
+	
+Note: you are not required to use '.bmp' as an ending for the output file name, but
+since the file will always be a Windows Bitmap, it is a good idea to to so.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

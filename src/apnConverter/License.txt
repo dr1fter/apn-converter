@@ -1,0 +1,29 @@
+﻿Apn Converter License / Disclaimer
+==================================
+
+1. Subject
+
+Subject of this License / Disclaimer is the copy of the "Apn Converter" 
+(which shall hereafter referred to as (the)"Software" or (the)"Tool")
+you received this license file with.
+
+2. Licence conditions
+
+As of now, the Software is licensed to you as FREEWARE, which means that you do
+not need to pay a fee for this license. You are allowed to use the Software 
+in the state you received it for any non-commercial purpose you see fit. You 
+are also allowed to create copies of the Software and distribute them to third 
+parties if you do not modify it and if you do enclose this license file with the
+copies you created.
+You are NOT allowed to use this software for any commercial purpose, such as 
+selling or renting copies of the Software or in any other way charging money 
+for a service / product which was created directly or indirectly using the
+Software. You are not allowed to alter the Software or this license file and
+redistribute the altered versions of the Software or this file.
+
+3. Disclaimer
+
+This Software is being provided in the hope it may be useful. However the 
+author can not be held responsible for any damage resulting from proper or
+improper use of the Software. The Software is provided "as is" without 
+even the implied guarantee for the fitness for any particular purpose.

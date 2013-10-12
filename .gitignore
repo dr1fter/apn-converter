@@ -1,0 +1,4 @@
+local/
+redist/
+*bin/
+*obj/
