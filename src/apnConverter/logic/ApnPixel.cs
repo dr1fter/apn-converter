@@ -16,9 +16,9 @@ namespace apnConverter
          * (MSB)                    (LSB)
          *      RRRR RGGG GGGB BBBB 
          */ 
-        readonly static ushort RED_ERASOR = 0x7FF;        // 00000 111111 11111
-        readonly static ushort GREEN_ERASOR =  0xF81F;    // 11111 000000 11111
-        readonly static ushort BLUE_ERASOR = 0xFFE0;      // 11111 111111 00000
+        readonly static ushort RED_ERASOR = 0x7FF;        // 0000 0111 1111 1111
+        readonly static ushort GREEN_ERASOR =  0xF81F;    // 1111 1000 0001 1111
+        readonly static ushort BLUE_ERASOR = 0xFFE0;      // 1111 1111 1110 0000
 
         readonly static byte FIVE_BITS_FILTER = 0x1F;   // 0001 1111
         readonly static byte SIX_BITS_FILTER = 0x3F;    // 0011 1111
